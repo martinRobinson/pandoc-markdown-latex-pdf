@@ -1,4 +1,8 @@
 ---
+mainfont: Arial
+output:
+  pdf_document: 
+    latex_engine: xelatex
 title: "Pandoc-Markdown-LaTeX-PDF"
 date: "2021-06-06"
 author: "Jaan Tollander de Balsch"
@@ -15,6 +19,10 @@ Seen in figure \ref{fig:1}, lorem ipsum dolor sit amet, consectetur adipisicing 
 # Test Content
 This is some test content added by me today...
 And this is some content added today Friday.
+
+# Some More Test 
+Content added on Sunday.
+
 
 # Equation
 Cauchy's integral formula [@dixon1971brief]
